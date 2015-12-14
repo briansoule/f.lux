@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17F0FBC93ABED969B06EBC26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A72659FB75475FC90319FA /* UIKit.framework */; };
+		1ECA6EB6C10106BC67569CBC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AA74E36569F3CFB1105ACF /* Accounts.framework */; };
 		24208AE11BCDE89E00D78C93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24208AE01BCDE89E00D78C93 /* main.m */; };
 		24208AE41BCDE89E00D78C93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24208AE31BCDE89E00D78C93 /* AppDelegate.m */; };
 		24208AE71BCDE89E00D78C93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24208AE61BCDE89E00D78C93 /* ViewController.m */; };
@@ -22,9 +24,27 @@
 		24208B0C1BCDEA3200D78C93 /* org.herf.flux@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24208B031BCDEA3200D78C93 /* org.herf.flux@2x.png */; };
 		24208B0D1BCDEA3200D78C93 /* LaunchScreen.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 24208B041BCDEA3200D78C93 /* LaunchScreen.storyboardc */; };
 		24208B0F1BCDEA3E00D78C93 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 24208B0E1BCDEA3E00D78C93 /* en.lproj */; };
+		2647CFB674AAED536F2441A9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EF71B0D9D5D8594BDB6AA3 /* libz.dylib */; };
+		5075809DD3308BB570CF273A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67002ECDD7093A5160FB77E /* CoreText.framework */; };
+		544CD6AF0B49B1A4EDBC7ECC /* ApptentiveResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D16D2A9BCED87655F03DFB30 /* ApptentiveResources.bundle */; };
+		5D4296E4F984E8B9A7EF7A6C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C2836C2CAE6327E92A1D49 /* CoreData.framework */; };
+		782D886ACB8CE0479C018C67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B39493EEC3DC7B1399C4F0 /* CoreGraphics.framework */; };
+		8620A1DDC15B5C5723284439 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D9844D3646599F1C8A467F /* StoreKit.framework */; };
+		920AECC824250E74C9391A40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32746FDF48FD990427AA17D4 /* QuartzCore.framework */; };
+		A41D4B789CD7F7416E4DBC1D /* libApptentiveConnect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 690021C477E909E209E26E46 /* libApptentiveConnect.a */; };
+		B145EDA1394B870DE0596304 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2579E3C4D3C08B6CA4136851 /* Social.framework */; };
+		BC09FF5C2535335CBF89CBEB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E14EF77BD066380216F2A98 /* Accelerate.framework */; };
+		D001FEE35440A0DEC242F95A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5041BEBF52001642007A0D7 /* AssetsLibrary.framework */; };
+		D8283C7D7C9E33CD6C1FA179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB735AFA5C62CEEC260F3C85 /* Foundation.framework */; };
+		E1A39E81D58E6771A6482728 /* ATConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 756FDC521B582222B889ADA9 /* ATConnect.h */; };
+		EB6BECF71C7F77E1495CE5C3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD0364CE70725EADC871A74 /* CoreTelephony.framework */; };
+		F6E6314786FEF4A476A323C0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EDA74B398997131EC93C33 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01EDA74B398997131EC93C33 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		09A72659FB75475FC90319FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1361F6A4AEF41C54F3FC029E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "Vendor/apptentive_ios_sdk-2.0.2/README.md"; sourceTree = "<group>"; };
 		24208ADC1BCDE89E00D78C93 /* iflux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iflux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24208AE01BCDE89E00D78C93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24208AE21BCDE89E00D78C93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +66,23 @@
 		24208B031BCDEA3200D78C93 /* org.herf.flux@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "org.herf.flux@2x.png"; sourceTree = "<group>"; };
 		24208B041BCDEA3200D78C93 /* LaunchScreen.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; path = LaunchScreen.storyboardc; sourceTree = "<group>"; };
 		24208B0E1BCDEA3E00D78C93 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		2579E3C4D3C08B6CA4136851 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		32746FDF48FD990427AA17D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		33C2836C2CAE6327E92A1D49 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		3E14EF77BD066380216F2A98 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		48B39493EEC3DC7B1399C4F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5607E615E97AD2E8D672530C /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE.txt; path = "Vendor/apptentive_ios_sdk-2.0.2/LICENSE.txt"; sourceTree = "<group>"; };
+		67D9844D3646599F1C8A467F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		690021C477E909E209E26E46 /* libApptentiveConnect.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libApptentiveConnect.a; path = "Vendor/apptentive_ios_sdk-2.0.2/libApptentiveConnect.a"; sourceTree = "<group>"; };
+		756FDC521B582222B889ADA9 /* ATConnect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATConnect.h; path = "Vendor/apptentive_ios_sdk-2.0.2/ATConnect.h"; sourceTree = "<group>"; };
+		87EF71B0D9D5D8594BDB6AA3 /* libz.dylib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		98AA74E36569F3CFB1105ACF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
+		A5041BEBF52001642007A0D7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		BB735AFA5C62CEEC260F3C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C4B41A38AB832D189B90202A /* CHANGELOG.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = "Vendor/apptentive_ios_sdk-2.0.2/CHANGELOG.md"; sourceTree = "<group>"; };
+		C67002ECDD7093A5160FB77E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		D16D2A9BCED87655F03DFB30 /* ApptentiveResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ApptentiveResources.bundle; path = "Vendor/apptentive_ios_sdk-2.0.2/ApptentiveResources.bundle"; sourceTree = "<group>"; };
+		FBD0364CE70725EADC871A74 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +90,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41D4B789CD7F7416E4DBC1D /* libApptentiveConnect.a in Frameworks */,
+				1ECA6EB6C10106BC67569CBC /* Accounts.framework in Frameworks */,
+				BC09FF5C2535335CBF89CBEB /* Accelerate.framework in Frameworks */,
+				D001FEE35440A0DEC242F95A /* AssetsLibrary.framework in Frameworks */,
+				5D4296E4F984E8B9A7EF7A6C /* CoreData.framework in Frameworks */,
+				5075809DD3308BB570CF273A /* CoreText.framework in Frameworks */,
+				782D886ACB8CE0479C018C67 /* CoreGraphics.framework in Frameworks */,
+				EB6BECF71C7F77E1495CE5C3 /* CoreTelephony.framework in Frameworks */,
+				D8283C7D7C9E33CD6C1FA179 /* Foundation.framework in Frameworks */,
+				920AECC824250E74C9391A40 /* QuartzCore.framework in Frameworks */,
+				B145EDA1394B870DE0596304 /* Social.framework in Frameworks */,
+				8620A1DDC15B5C5723284439 /* StoreKit.framework in Frameworks */,
+				F6E6314786FEF4A476A323C0 /* SystemConfiguration.framework in Frameworks */,
+				17F0FBC93ABED969B06EBC26 /* UIKit.framework in Frameworks */,
+				2647CFB674AAED536F2441A9 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +117,8 @@
 				24208AF71BCDE9F500D78C93 /* f.lux IPA contents */,
 				24208ADE1BCDE89E00D78C93 /* just an app */,
 				24208ADD1BCDE89E00D78C93 /* Products */,
+				EE9098C96F30713D76F48B97 /* Vendor */,
+				8CEDE1BEF28DD03C1CFB3CFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,7 +173,60 @@
 			name = "f.lux IPA contents";
 			sourceTree = "<group>";
 		};
+		8CEDE1BEF28DD03C1CFB3CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B88BBB4B9E5D9CC8AB9AFF17 /* iOS */,
+				87EF71B0D9D5D8594BDB6AA3 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B88BBB4B9E5D9CC8AB9AFF17 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				98AA74E36569F3CFB1105ACF /* Accounts.framework */,
+				3E14EF77BD066380216F2A98 /* Accelerate.framework */,
+				A5041BEBF52001642007A0D7 /* AssetsLibrary.framework */,
+				33C2836C2CAE6327E92A1D49 /* CoreData.framework */,
+				C67002ECDD7093A5160FB77E /* CoreText.framework */,
+				48B39493EEC3DC7B1399C4F0 /* CoreGraphics.framework */,
+				FBD0364CE70725EADC871A74 /* CoreTelephony.framework */,
+				BB735AFA5C62CEEC260F3C85 /* Foundation.framework */,
+				32746FDF48FD990427AA17D4 /* QuartzCore.framework */,
+				2579E3C4D3C08B6CA4136851 /* Social.framework */,
+				67D9844D3646599F1C8A467F /* StoreKit.framework */,
+				01EDA74B398997131EC93C33 /* SystemConfiguration.framework */,
+				09A72659FB75475FC90319FA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE9098C96F30713D76F48B97 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				D16D2A9BCED87655F03DFB30 /* ApptentiveResources.bundle */,
+				756FDC521B582222B889ADA9 /* ATConnect.h */,
+				C4B41A38AB832D189B90202A /* CHANGELOG.md */,
+				690021C477E909E209E26E46 /* libApptentiveConnect.a */,
+				5607E615E97AD2E8D672530C /* LICENSE.txt */,
+				1361F6A4AEF41C54F3FC029E /* README.md */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC88095D1DAEA75A3102DAC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A39E81D58E6771A6482728 /* ATConnect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		24208ADB1BCDE89E00D78C93 /* iflux */ = {
@@ -129,6 +236,7 @@
 				24208AD81BCDE89E00D78C93 /* Sources */,
 				24208AD91BCDE89E00D78C93 /* Frameworks */,
 				24208ADA1BCDE89E00D78C93 /* Resources */,
+				AC88095D1DAEA75A3102DAC2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -188,6 +296,7 @@
 				24208B061BCDEA3200D78C93 /* AppIcon29x29@3x.png in Resources */,
 				24208B0F1BCDEA3E00D78C93 /* en.lproj in Resources */,
 				24208B081BCDEA3200D78C93 /* AppIcon40x40@3x.png in Resources */,
+				544CD6AF0B49B1A4EDBC7ECC /* ApptentiveResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +425,14 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/apptentive_ios_sdk-2.0.2",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.justgetflux.iflux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -329,6 +446,14 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/apptentive_ios_sdk-2.0.2",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.justgetflux.iflux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
