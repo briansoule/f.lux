@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E07CE6578DD7C386707A27 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A9E4CF1963E8856ED695FC /* Social.framework */; };
+		0410CE68EDEFD78BB51C10CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BDA135C93D2FC0DB55379 /* QuartzCore.framework */; };
+		1006D4A3DF0DB3ADCF43CADB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049D6D2375FE355635603ABE /* StoreKit.framework */; };
+		119711A36DCAED8A511AC468 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A136541D32B4D0456308ECA /* libz.dylib */; };
+		1B8D23A69F313975DC473C9C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA08C3B5F4C3C053DEE535FC /* AssetsLibrary.framework */; };
+		239DD90BCFE3A7C75B05A455 /* ApptentiveResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CE5F1EACA53A4294FB54D1E /* ApptentiveResources.bundle */; };
 		24208AE11BCDE89E00D78C93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24208AE01BCDE89E00D78C93 /* main.m */; };
 		24208AE41BCDE89E00D78C93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24208AE31BCDE89E00D78C93 /* AppDelegate.m */; };
 		24208AE71BCDE89E00D78C93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24208AE61BCDE89E00D78C93 /* ViewController.m */; };
@@ -22,9 +28,23 @@
 		24208B0C1BCDEA3200D78C93 /* org.herf.flux@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24208B031BCDEA3200D78C93 /* org.herf.flux@2x.png */; };
 		24208B0D1BCDEA3200D78C93 /* LaunchScreen.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 24208B041BCDEA3200D78C93 /* LaunchScreen.storyboardc */; };
 		24208B0F1BCDEA3E00D78C93 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 24208B0E1BCDEA3E00D78C93 /* en.lproj */; };
+		280653CCD3B08B44BF490B57 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C951863B0C6A7644F2719EF /* Accelerate.framework */; };
+		459AD9D8C9D394B0D773613A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B883432FAB1D4E0EE0EE12C /* CoreTelephony.framework */; };
+		5CD006AB47A0F96D939E1841 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A0DAEE1912FB9853D826 /* CoreText.framework */; };
+		95FD2226781E6FC30173E508 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9058CF43F4F6371FE6FB4AB9 /* Accounts.framework */; };
+		A1AC2459F2AC026E67F189B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADDDEB4E5C22D7116CA0E96 /* Foundation.framework */; };
+		B060043DDDD8D9EEE742F515 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E9AE6E138DD7FD12C7E1E6 /* CoreData.framework */; };
+		B26385476B5703CCEEC9BE1E /* libApptentiveConnect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B73754841414699DED2C669C /* libApptentiveConnect.a */; };
+		B3E50891CCB33B712995A05F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6D5D7433C482C7F274C64 /* SystemConfiguration.framework */; };
+		B57E04EE990AA8551609F139 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19602B093773F8F344E509A4 /* UIKit.framework */; };
+		CDD99B267BA7938C5D3CB4D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0DE9C8F79114E54D01E62A /* CoreGraphics.framework */; };
+		E44A6F687398EFFE11F5EA66 /* ATConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D06FE5F20D5FC4F1CA12BBE /* ATConnect.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		049D6D2375FE355635603ABE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		0ADDDEB4E5C22D7116CA0E96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		19602B093773F8F344E509A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		24208ADC1BCDE89E00D78C93 /* iflux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iflux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24208AE01BCDE89E00D78C93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24208AE21BCDE89E00D78C93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +66,20 @@
 		24208B031BCDEA3200D78C93 /* org.herf.flux@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "org.herf.flux@2x.png"; sourceTree = "<group>"; };
 		24208B041BCDEA3200D78C93 /* LaunchScreen.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; path = LaunchScreen.storyboardc; sourceTree = "<group>"; };
 		24208B0E1BCDEA3E00D78C93 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		3CD2A0DAEE1912FB9853D826 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		3CE5F1EACA53A4294FB54D1E /* ApptentiveResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ApptentiveResources.bundle; path = "Vendor/apptentive_ios_sdk-2.0.3/ApptentiveResources.bundle"; sourceTree = "<group>"; };
+		55A9E4CF1963E8856ED695FC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		72E9AE6E138DD7FD12C7E1E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		7A136541D32B4D0456308ECA /* libz.dylib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7B883432FAB1D4E0EE0EE12C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		7C951863B0C6A7644F2719EF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		7D06FE5F20D5FC4F1CA12BBE /* ATConnect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATConnect.h; path = "Vendor/apptentive_ios_sdk-2.0.3/ATConnect.h"; sourceTree = "<group>"; };
+		9058CF43F4F6371FE6FB4AB9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
+		9C0DE9C8F79114E54D01E62A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A76BDA135C93D2FC0DB55379 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B73754841414699DED2C669C /* libApptentiveConnect.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libApptentiveConnect.a; path = "Vendor/apptentive_ios_sdk-2.0.3/libApptentiveConnect.a"; sourceTree = "<group>"; };
+		E9B6D5D7433C482C7F274C64 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EA08C3B5F4C3C053DEE535FC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +87,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26385476B5703CCEEC9BE1E /* libApptentiveConnect.a in Frameworks */,
+				95FD2226781E6FC30173E508 /* Accounts.framework in Frameworks */,
+				280653CCD3B08B44BF490B57 /* Accelerate.framework in Frameworks */,
+				1B8D23A69F313975DC473C9C /* AssetsLibrary.framework in Frameworks */,
+				B060043DDDD8D9EEE742F515 /* CoreData.framework in Frameworks */,
+				5CD006AB47A0F96D939E1841 /* CoreText.framework in Frameworks */,
+				CDD99B267BA7938C5D3CB4D0 /* CoreGraphics.framework in Frameworks */,
+				459AD9D8C9D394B0D773613A /* CoreTelephony.framework in Frameworks */,
+				A1AC2459F2AC026E67F189B7 /* Foundation.framework in Frameworks */,
+				0410CE68EDEFD78BB51C10CF /* QuartzCore.framework in Frameworks */,
+				00E07CE6578DD7C386707A27 /* Social.framework in Frameworks */,
+				1006D4A3DF0DB3ADCF43CADB /* StoreKit.framework in Frameworks */,
+				B3E50891CCB33B712995A05F /* SystemConfiguration.framework in Frameworks */,
+				B57E04EE990AA8551609F139 /* UIKit.framework in Frameworks */,
+				119711A36DCAED8A511AC468 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,8 @@
 				24208AF71BCDE9F500D78C93 /* f.lux IPA contents */,
 				24208ADE1BCDE89E00D78C93 /* just an app */,
 				24208ADD1BCDE89E00D78C93 /* Products */,
+				70250313DEA9E4EDED634D62 /* Vendor */,
+				CF4887CEE76F25633B763D1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,7 +170,57 @@
 			name = "f.lux IPA contents";
 			sourceTree = "<group>";
 		};
+		70250313DEA9E4EDED634D62 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3CE5F1EACA53A4294FB54D1E /* ApptentiveResources.bundle */,
+				7D06FE5F20D5FC4F1CA12BBE /* ATConnect.h */,
+				B73754841414699DED2C669C /* libApptentiveConnect.a */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		CF4887CEE76F25633B763D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BB981B29ED26C33B8A48 /* iOS */,
+				7A136541D32B4D0456308ECA /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E3BB981B29ED26C33B8A48 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9058CF43F4F6371FE6FB4AB9 /* Accounts.framework */,
+				7C951863B0C6A7644F2719EF /* Accelerate.framework */,
+				EA08C3B5F4C3C053DEE535FC /* AssetsLibrary.framework */,
+				72E9AE6E138DD7FD12C7E1E6 /* CoreData.framework */,
+				3CD2A0DAEE1912FB9853D826 /* CoreText.framework */,
+				9C0DE9C8F79114E54D01E62A /* CoreGraphics.framework */,
+				7B883432FAB1D4E0EE0EE12C /* CoreTelephony.framework */,
+				0ADDDEB4E5C22D7116CA0E96 /* Foundation.framework */,
+				A76BDA135C93D2FC0DB55379 /* QuartzCore.framework */,
+				55A9E4CF1963E8856ED695FC /* Social.framework */,
+				049D6D2375FE355635603ABE /* StoreKit.framework */,
+				E9B6D5D7433C482C7F274C64 /* SystemConfiguration.framework */,
+				19602B093773F8F344E509A4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22A05CBE3B94690906DF291F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44A6F687398EFFE11F5EA66 /* ATConnect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		24208ADB1BCDE89E00D78C93 /* iflux */ = {
@@ -129,6 +230,7 @@
 				24208AD81BCDE89E00D78C93 /* Sources */,
 				24208AD91BCDE89E00D78C93 /* Frameworks */,
 				24208ADA1BCDE89E00D78C93 /* Resources */,
+				22A05CBE3B94690906DF291F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -188,6 +290,7 @@
 				24208B061BCDEA3200D78C93 /* AppIcon29x29@3x.png in Resources */,
 				24208B0F1BCDEA3E00D78C93 /* en.lproj in Resources */,
 				24208B081BCDEA3200D78C93 /* AppIcon40x40@3x.png in Resources */,
+				239DD90BCFE3A7C75B05A455 /* ApptentiveResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +419,14 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/apptentive_ios_sdk-2.0.3",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.justgetflux.iflux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -329,6 +440,14 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/apptentive_ios_sdk-2.0.3",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.justgetflux.iflux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

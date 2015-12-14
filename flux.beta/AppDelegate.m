@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ATConnect.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	/*** Apptentive added by Config.io ***/
+	[ATConnect sharedConnection].apiKey = @"0259019b7b58e4cea468a7029afc44b238c3c0060ec670e543886f304d664b6a";
     // Override point for customization after application launch.
     return YES;
 }
